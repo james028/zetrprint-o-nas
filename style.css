@@ -5430,6 +5430,7 @@ footer a:hover{
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+  position: relative;
 }
 .Page-1 {
   width: 111px;
@@ -5484,5 +5485,12 @@ footer a:hover{
   letter-spacing: 2px;
   color: #ffffff;
   text-transform: uppercase;
-
+}
+.onasTitle:before {
+  content: '';
+  width: 45px;
+  position: absolute;
+  top: 163px;
+  height: 3px;
+  background: #000;
 }
