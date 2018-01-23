@@ -5415,7 +5415,7 @@ footer a:hover{
   text-align: left;
   color: #1c0846;
   color: var(--dark-indigo);
-  margin: 76px 0 40px;
+  margin: 76px 0 0;
 }
 .onasText {
   width: 460px;
@@ -5430,7 +5430,7 @@ footer a:hover{
   letter-spacing: normal;
   text-align: left;
   color: #000000;
-  position: relative;
+  margin-top: 40px;
 }
 .Page-1 {
   width: 111px;
@@ -5450,8 +5450,8 @@ footer a:hover{
   margin: 83px auto 112px;
 }
 .Objevte-ZETPRINT-te {
-  width: 596px;
-  height: 56px;
+  width: 634px;
+  height: 42px;
   font-family: Rajdhani;
   font-size: 22px;
   font-weight: bold;
@@ -5474,23 +5474,46 @@ footer a:hover{
   margin: 45px auto 0;
 }
 .PRIHLASIT {
-  width: 142px;
+  width: 172px;
   height: 18px;
   font-family: Rajdhani;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #ffffff;
   text-transform: uppercase;
+  margin: 13px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.onasTitle:before {
-  content: '';
-  width: 45px;
-  position: absolute;
-  top: 163px;
-  height: 3px;
-  background: #000;
+.Rectangle-9:hover {
+  background-color: #fff;
+}
+.Rectangle-9:hover>a>.PRIHLASIT, .Rectangle-9:hover>a>.PRIHLASIT>svg {
+    color: #fe718d;
+}
+.borderOnasTitle {
+  height: 2px;
+  background: #1c0846;
+  width: 50px;
+  display: block;
+  margin: 10px auto 30px 0;
+}
+.borderOnasTitleThree {
+  height: 2px;
+  background: #1c0846;
+  width: 50px;
+  display: block;
+  margin: 50px auto 30px 0;
+}
+
+@media (max-width: 600px) {
+  .ZETPRINT-je-soust {
+    max-width: 100%;
+  }
+  
 }
